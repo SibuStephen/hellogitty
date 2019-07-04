@@ -21,7 +21,8 @@
     "test": "npm run mocha && npm run karma",
     "postinstall": "node node_modules/meanio/node_modules/mean-cli/bin/mean-postinstall",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "assetmanager": "1.1.2",
@@ -51,7 +52,7 @@
     "swig": "1.4.2",
     "time-grunt": "1.0.0",
     "view-helpers": "0.1.5",
-    "snyk": "^1.85.0"
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "expect.js": "0.3.1",
