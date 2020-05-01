@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -8,3 +8,16 @@ patch:
         patched: '2018-06-26T08:24:02.586Z'
     - forever > winston > request > form-data > mime:
         patched: '2018-06-26T08:24:02.586Z'
+  SNYK-JS-LODASH-567746:
+    - meanio > lodash:
+        patched: '2020-05-01T08:26:02.091Z'
+    - meanio > assetmanager > lodash:
+        patched: '2020-05-01T08:26:02.091Z'
+    - meanio > mongoose > async > lodash:
+        patched: '2020-05-01T08:26:02.091Z'
+    - meanio > assetmanager > grunt > grunt-legacy-log > lodash:
+        patched: '2020-05-01T08:26:02.091Z'
+    - meanio > assetmanager > grunt > grunt-legacy-util > lodash:
+        patched: '2020-05-01T08:26:02.091Z'
+    - meanio > assetmanager > grunt > grunt-legacy-log > grunt-legacy-log-utils > lodash:
+        patched: '2020-05-01T08:26:02.091Z'
