@@ -51,7 +51,7 @@
     "swig": "1.4.2",
     "time-grunt": "1.0.0",
     "view-helpers": "0.1.5",
-    "snyk": "^1.85.0"
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "expect.js": "0.3.1",
